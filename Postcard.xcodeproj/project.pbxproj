@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D176101AC31D3A00842B3C /* pastel-beach-sunset-iphone-6-wallpaper-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D1760F1AC31D3A00842B3C /* pastel-beach-sunset-iphone-6-wallpaper-background.png */; };
+		07D176121AC31D5F00842B3C /* ocean-wave-sunset-iphone-wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D176111AC31D5F00842B3C /* ocean-wave-sunset-iphone-wallpaper.png */; };
 		07F803E01AAB1417004C00FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F803DF1AAB1417004C00FE /* AppDelegate.swift */; };
 		07F803E21AAB1417004C00FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F803E11AAB1417004C00FE /* ViewController.swift */; };
 		07F803E51AAB1417004C00FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F803E31AAB1417004C00FE /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07D1760F1AC31D3A00842B3C /* pastel-beach-sunset-iphone-6-wallpaper-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pastel-beach-sunset-iphone-6-wallpaper-background.png"; sourceTree = "<group>"; };
+		07D176111AC31D5F00842B3C /* ocean-wave-sunset-iphone-wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ocean-wave-sunset-iphone-wallpaper.png"; sourceTree = "<group>"; };
 		07F803DA1AAB1417004C00FE /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F803DE1AAB1417004C00FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F803DF1AAB1417004C00FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		07F803DD1AAB1417004C00FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07D176111AC31D5F00842B3C /* ocean-wave-sunset-iphone-wallpaper.png */,
+				07D1760F1AC31D3A00842B3C /* pastel-beach-sunset-iphone-6-wallpaper-background.png */,
 				07F803DE1AAB1417004C00FE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F803E51AAB1417004C00FE /* Main.storyboard in Resources */,
+				07D176101AC31D3A00842B3C /* pastel-beach-sunset-iphone-6-wallpaper-background.png in Resources */,
 				07F803EA1AAB1417004C00FE /* LaunchScreen.xib in Resources */,
 				07F803E71AAB1417004C00FE /* Images.xcassets in Resources */,
+				07D176121AC31D5F00842B3C /* ocean-wave-sunset-iphone-wallpaper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				07F803FB1AAB1417004C00FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F803FC1AAB1417004C00FE /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				07F803FE1AAB1417004C00FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
